@@ -1,6 +1,32 @@
+@font-face {
+  font-family: star-wars;   /* Can be any text */
+  src: url('./font/SfDistantGalaxyAlternate-OE4d.ttf');
+}
+
 * {
   box-sizing: border-box;
+  font-family: star-wars , sans-serif;
+  font-weight: 900;
   margin: 0;
   padding: 0;
 }
 
+html {
+
+  --fontGrey: rgb(177, 177, 177);
+
+  --fontYellow: rgb(255, 218, 34);
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+button {
+  cursor: pointer;
+  outline: none;
+}
