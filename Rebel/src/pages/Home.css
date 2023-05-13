@@ -1,0 +1,66 @@
+.main-home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 12%;
+}
+
+.home-title-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+
+.home-x-wing {
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translate(30%, -50%);
+  width: 15vw;
+}
+
+.home-TIE {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  rotate: 150deg;
+  scale: -1;
+  transform: translate(-50%, -20%);
+  width: 12vw;
+}
+
+.home-title {
+  color: black;
+  font-family: star-wars , Courier New , Courier , monospace;
+  font-size: 10rem;
+  letter-spacing: 0.7ch;
+  line-height: 1.8ch;
+  margin-bottom: 1ch;
+  padding-left: 1.75vw;
+  text-shadow: 2px 0 var(--fontYellow) , -2px 0 var(--fontYellow) , 0 2px var(--fontYellow) , 0 -2px var(--fontYellow) , 1px 1px var(--fontYellow) , -1px -1px var(--fontYellow) , 1px -1px var(--fontYellow) , -1px 1px var(--fontYellow);
+  width: 80%;
+}
+
+.home-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.home-button {
+  background: black;
+  border: 1px solid #ffe8198f;
+  border-radius: 2.5rem;
+  color: var(--fontLGrey);
+  font-family: star-wars-btn , Courier New , Courier , monospace;
+  font-size: 1.8rem;
+  letter-spacing: 0.6ch;
+  padding: 1.1em 1em 1em 1.5em;
+}
+
+.rules-txt { font-family: Epilogue , sans-serif;}

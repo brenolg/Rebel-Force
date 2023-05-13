@@ -1,32 +1,41 @@
 @font-face {
-  font-family: star-wars;   /* Can be any text */
+  font-family: star-wars-btn;
   src: url('./font/SfDistantGalaxyAlternate-OE4d.ttf');
+}
+
+@font-face {
+  font-family: star-wars;
+  src: url('./font/Starjedi.ttf');
 }
 
 * {
   box-sizing: border-box;
   font-family: star-wars , sans-serif;
-  font-weight: 900;
   margin: 0;
   padding: 0;
 }
 
 html {
 
-  --fontGrey: rgb(177, 177, 177);
+  --fontDGrey: rgb(177, 177, 177);
 
-  --fontYellow: rgb(255, 218, 34);
+  --fontLGrey: rgb(214, 211, 211);
+
+  --fontYellow: #ffe919;
   font-size: 62.5%;
 }
 
 body {
+  background-color: black;
+  background-image: url('./images/space.jpg');
+  background-size: 40%;
   min-height: 100vh;
   overflow: hidden;
   width: 100%;
 }
 
-
 button {
   cursor: pointer;
   outline: none;
 }
+
