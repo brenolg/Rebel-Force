@@ -3,46 +3,46 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 12%;
+  padding-top: 25vh;
 }
 
 .home-title-container {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  max-width: 80%;
+  pointer-events: none;
   position: relative;
   text-align: center;
-  width: 80%;
+  width: fit-content;
+}
+
+.home-title {
+  color: black;
+  font-family: star-wars , Courier New , Courier , monospace;
+  font-size: 8rem;
+  letter-spacing: 0.7ch;
+  line-height: 2ch;
+  padding-left: 1.85vw;
+  text-shadow: 2px 0 var(--fontYellow) , -2px 0 var(--fontYellow) , 0 2px var(--fontYellow) , 0 -2px var(--fontYellow) , 1px 1px var(--fontYellow) , -1px -1px var(--fontYellow) , 1px -1px var(--fontYellow) , -1px 1px var(--fontYellow);
 }
 
 .home-x-wing {
   left: 0;
   position: absolute;
   top: 0;
-  transform: translate(30%, -50%);
-  width: 15vw;
+  transform: translate(-110%, -50%);
+  width: 18vw;
 }
 
 .home-TIE {
   bottom: 0;
   position: absolute;
   right: 0;
-  rotate: 150deg;
-  scale: -1;
-  transform: translate(-50%, -20%);
-  width: 12vw;
-}
-
-.home-title {
-  color: black;
-  font-family: star-wars , Courier New , Courier , monospace;
-  font-size: 10rem;
-  letter-spacing: 0.7ch;
-  line-height: 1.8ch;
-  margin-bottom: 1ch;
-  padding-left: 1.75vw;
-  text-shadow: 2px 0 var(--fontYellow) , -2px 0 var(--fontYellow) , 0 2px var(--fontYellow) , 0 -2px var(--fontYellow) , 1px 1px var(--fontYellow) , -1px -1px var(--fontYellow) , 1px -1px var(--fontYellow) , -1px 1px var(--fontYellow);
-  width: 80%;
+  rotate: -25deg;
+  transform: translate(100%, 50%);
+  width: 10vw;
 }
 
 .home-nav {
@@ -60,6 +60,7 @@
   font-family: star-wars-btn , Courier New , Courier , monospace;
   font-size: 1.8rem;
   letter-spacing: 0.6ch;
+  margin-top: 6vh;
   padding: 1.1em 1em 1em 1.5em;
 }
 

@@ -1,0 +1,7 @@
+.game_main {
+  cursor: crosshair;
+  height: 100%;
+  width: 100%;
+}
+
+.game_main:hover { cursor: crosshair;}

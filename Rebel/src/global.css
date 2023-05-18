@@ -1,11 +1,11 @@
 @font-face {
   font-family: star-wars-btn;
-  src: url('./font/SfDistantGalaxyAlternate-OE4d.ttf');
+  src: url('./font/SfDistantGalaxyAlternate-OE4d.ttf') format('truetype');
 }
 
 @font-face {
   font-family: star-wars;
-  src: url('./font/Starjedi.ttf');
+  src: url('./font/Starjedi.ttf') format('truetype');
 }
 
 * {
@@ -29,13 +29,11 @@ body {
   background-color: black;
   background-image: url('./images/space.jpg');
   background-size: 40%;
-  min-height: 100vh;
+  cursor: crosshair;
   overflow: hidden;
-  width: 100%;
 }
 
 button {
-  cursor: pointer;
   outline: none;
 }
 

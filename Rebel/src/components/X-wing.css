@@ -1,0 +1,10 @@
+.XWing-div {
+  bottom: 8vh;
+  pointer-events: none;
+  position: absolute;
+}
+
+.play-x-wing {
+  rotate: 180deg;
+  width: 12vw;
+}
